@@ -12,9 +12,9 @@ This repository explores and benchmarks efficient numerical solvers for **Least-
 
 LSTD methods estimate value functions by solving the equation:
 
-$$
+$
 A w = b, \quad \text{where } A = \sum_t \phi(s_t)(\phi(s_t) - \gamma \phi(s_{t+1}))^T
-$$
+$
 
 As environments grow in complexity, solving this system becomes increasingly challenging due to:
 
